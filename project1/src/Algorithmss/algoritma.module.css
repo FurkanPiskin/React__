@@ -1,0 +1,52 @@
+.algorithms {
+    display: flex;
+    align-items: center; /* Dikey hizalama */
+    justify-content: center;/* Yatay hizalama */
+   
+    height: 100vh; /* Sayfanın tamamını kapla */
+    background-color: #686161;
+
+    
+  }
+  img{
+    height: 300px;
+    width: 300px;
+  }
+  .algorithmswrapper{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+    text-align: center;    
+    
+    width: 100vh;
+    height: 100vh;
+   
+  }
+  .buttons{
+    width: 100vh;
+    
+    display: flex;
+    justify-content: space-between; 
+   
+  }
+  .select{
+  
+    height: 100vh;
+    padding: 100px;
+   
+    
+  }
+  .buttons button{
+    background-color: burlywood;
+    border-radius: 5px;
+    font-size: 20px;
+    color:black;
+  }
+  .select h1{
+    font-size:40px
+  }
+  
+
+  
+  

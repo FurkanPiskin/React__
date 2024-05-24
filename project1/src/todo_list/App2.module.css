@@ -1,0 +1,60 @@
+
+/* App2.module.css */
+
+.App {
+ 
+  text-align: center;
+ 
+  height: 100vh;
+  background-color:#939B62;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #333;
+}
+
+.App input {
+  height: 20px;
+  padding: 5px 20px;
+}
+
+.App button {
+  margin: 10px 0;
+}
+
+.App ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.App ul li {
+  padding: 5px 20px;
+  width: 350px;
+  background-color: #939B62;
+  list-style-type: none;
+  text-align: start;
+  border-bottom: 2px solid #FF7B54;
+  margin-top: 10px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: .7px;
+}
+
+.App button {
+  border: none;
+  letter-spacing: 2px;
+  padding: 3px 18px;
+  color: #333;
+  font-size: 16px;
+  background-color: #FFB26B;
+  transition: .3s;
+}
+
+.App button:hover {
+  color: #FF7B54;
+  background-color: #333;
+}

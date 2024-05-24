@@ -1,0 +1,19 @@
+
+.App{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #212121;
+ 
+}
+.calcwrapper{
+  margin-top: 50px;
+ background-color:black;
+  width: 300px;
+  border-radius: 16px;
+
+}
+.row{
+ display: flex; 
+}

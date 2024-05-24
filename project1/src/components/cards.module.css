@@ -1,0 +1,21 @@
+.card {
+    
+    width: 250px;
+    height: 250px !important;
+    border-radius: 30px;
+    color: white !important;
+    background: #212121 !important;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+    text-align: center;
+   }
+  .cardbody{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+  }
+  .button:hover{
+    transform: scale(1.05);
+    background-color: gray;
+  }
+   
