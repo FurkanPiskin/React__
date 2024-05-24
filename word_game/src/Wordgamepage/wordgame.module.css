@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+input{
+   border: none;
+   border-bottom: 2px solid black;
+   width: 20px;
+}
+input:hover{
+    border: none;
+    border-bottom: 2px solid black;
+}
+.Tahmin{
+display:flex;
+
+height: 100vh;
+width: 100vh;
+
+margin-left: auto;
+margin-right: auto;
+}
+
+.App{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+  
+    height: 100vh;
+background-color:#170626;
+   background-position: center;
+  
+   
+}
+body{
+    background-color:#170626;
+}

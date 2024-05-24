@@ -1,0 +1,72 @@
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top:auto;
+height: 100vh; 
+width: 100%;
+
+}
+.bilgi
+button
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    
+}
+@media (min-width: 768px) {
+    .scoreboard button {
+      padding: 0.25em 0.75em;
+    }
+  }
+  .scoreboard button:active{
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+  }
+
+
+input:focus{
+    border: none;
+    border-bottom: 2px solid black;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 255, 0.5); /* Dönen mavi ışık efekti */
+    background-color: white;
+    color:black;
+    outline: none; 
+}
+input{
+    background-color: black;
+    color:white;
+    text-align: center; /* Yazıyı yatay olarak ortala */
+    padding-top: 10px; /* Yukarıdan boşluk bırak */
+    height: 40px; /* Input alanının yüksekliğini ayarla */
+    line-height: 40px; /* Yazının dikey hizalamasını ayarla */
+    text-transform: uppercase;
+    border-radius: 20px;
+ 
+    
+}
+.wordgame{
+    font-size: 2em; /* Metin boyutu */
+    font-weight: bold; /* Kalın font */
+    text-transform: uppercase; /* Tüm harfleri büyük harfe çevir */
+    color: #fff; /* Metin rengi */
+    background: linear-gradient(45deg, #ff00cc, #3333ff); /* Arkaplan gradienti */
+    -webkit-text-stroke: 1px #000; /* Metin kenar çizgisi */
+    -webkit-background-clip: text; /* Arkaplanı sadece metinle sınırla */
+    -webkit-filter: drop-shadow(5px 5px 5px #222); /* Gölge efekti */
+    transform: perspective(500px) rotateY(20deg); /* 3D dönüş */
+    
+}

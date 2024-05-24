@@ -1,0 +1,16 @@
+.questions{
+    margin-bottom: 100px;
+    color:black;
+    background: #412560;
+    border-radius: 25px;
+
+    -webkit-box-shadow: 27px 20px 19px 14px rgba(0,0,0,0.75);
+-moz-box-shadow: 27px 20px 19px 14px rgba(0,0,0,0.75);
+box-shadow: 27px 20px 19px 14px rgba(0,0,0,0.75);
+
+ 
+}
+.questions h3{
+    font-size: medium;
+    font-family: 'IBM Plex Mono', monospace;
+}
