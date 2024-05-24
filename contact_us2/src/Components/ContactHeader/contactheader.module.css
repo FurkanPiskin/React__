@@ -1,0 +1,23 @@
+.contact h1{
+    font-size: 25px;
+    font-weight: 800; 
+
+    
+}
+.contact p{
+    font-weight: 500;  
+}
+.contact{
+    align-items: center;
+    
+}
+.contact_header{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}

@@ -1,0 +1,28 @@
+nav{
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    
+  
+    }
+    nav ul{
+      display: flex;
+   
+      list-style-type: none;
+      gap: 24px;
+      font-weight: 500;
+      
+    }
+    .container{
+      
+        max-width: 1280px;
+        margin:0 auto;
+      
+      
+    }
+    img{
+       height: 50px;
+       width: 50px;
+    }
